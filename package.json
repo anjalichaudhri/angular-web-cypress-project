@@ -2,10 +2,15 @@
   "name": "angular-web-cypress-project",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "open": "npx cypress open",
-    "run": ""
+    "run": "npx cypress run",
+    "cy:open": "cypress open",
+    "cy:run": "npx cypress run",
+    "run:headless": "npx cypress run --headless",
+    "run:chrome": "npx cypress run --browser chrome",
+    "run:firefox": "npx cypress run --browser firefox"
   },
   "keywords": [],
   "author": "",
